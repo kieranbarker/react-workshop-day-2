@@ -4,11 +4,6 @@ import TodoForm from "./components/TodoForm.jsx";
 import TodoList from "./components/TodoList.jsx";
 
 function App() {
-	// const todos = [
-	// 	{ id: "Todo-HrwTup71Fp_CInZrWeaES", text: "Walk the dogs", done: true },
-	// 	{ id: "Todo-gyjPQvZ1cTiD7PqX0ryCx", text: "Buy groceries", done: false },
-	// 	{ id: "Todo-MFuPC8JZaUJMN__nOZzXh", text: "Work out", done: false },
-	// ];
 	const [todos, setTodos] = useState([]);
 
 	function addTodo(text) {
